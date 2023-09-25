@@ -1,12 +1,43 @@
-<div class="card-container">
-  <div class="card-content">
-    <h2>PSU College of IST </h2>
-    <p>the College of IST</p>
-    <img src="https://sites.psu.edu/istclub/wp-content/uploads/sites/12209/2014/08/cropped-IST.jpg" alt="Card Image" width="200" height="150">
+<div class="cards">
+  <div class="card-container">
+   <div class="card-content">
+     <h2>PSU College of IST </h2>
+     <p>the College of IST</p>
+     <style>
+       .hidden {
+           display: none;
+       }
+       .cards {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-evenly;
+       }
+       .card-container {
+           background-color: #808080;
+           width: 25%;
+           margin: 8px;
+           padding: 15px;
+           border-radius: 10px;
+       }
+       .card-content {
+         text-align: center;
+         color: white;
+         display: block;
+         flex-direction: column;
+         align-content: center;
+         font-family: "Comic Sans MS"
+       }
+       .card-content img {
+           max-width: 100%;
+           border-radius: 10px;
+       }              
+   </style>
+     <img src="https://sites.psu.edu/istclub/wp-content/uploads/sites/12209/2014/08/cropped-IST.jpg" alt="Card Image" width="200" height="150">
+     
+     
+      <a href="https://hax.psu.edu" class="details-button"> <button> Details</button></a>
+       
     
-    
-     <a href="https://hax.psu.edu" class="details-button"> <button> Details</button></a>
-      
-   
+   </div>
   </div>
-</div>
+ </div>
